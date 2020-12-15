@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'training-day-two';
+
+
+  appColorPanelValue = 'primary';
+
+  appSubmitColor(value: string): void{
+    this.appColorPanelValue = value;
+  }
+
 }
+
+
+
